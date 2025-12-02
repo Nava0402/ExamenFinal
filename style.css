@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perfil-card{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.perfil-card img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 15px 0px;
+}
+
+.perfil-card ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.perfil-card a{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.perfil-card a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .perfil-card{
+        max-width: 90%;
+    }
+
+    .perfil-card h1{
+        font-size: 20px
+    }
+
+    .perfil-card h2{
+        font-size: 16px
+    }
+}
