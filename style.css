@@ -13,7 +13,15 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1e90ff;
+    background-color: #4a4a4a;
+}
+
+.titulo h1{
+    color: #ffffff;
+}
+
+.perfil-card h2{
+    color: #ffffff;
 }
 
 .perfil-card img{
@@ -22,6 +30,10 @@ body{
     height: 150px;
     object-fit: cover;
     margin: 15px 0px;
+}
+
+.perfil-card p{
+    color: #dddddd;
 }
 
 .perfil-card ul{
@@ -46,6 +58,7 @@ body{
 footer{
     font-weight: bold;
     margin-top: 20px;
+    color: #ffffff;
 }
 
 @media (max-width: 600px) {
